@@ -1,0 +1,10 @@
+FROM # base image
+COPY #file from local to docker image
+ADD
+WORKDIR
+USER
+CMD
+ENTRYPOINT
+
+docker build -t test .
+docker run  --name test test

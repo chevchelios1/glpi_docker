@@ -1,0 +1,3 @@
+FROM mysql:latest
+COPY glpi.sql /docker-entrypoint-initdb.d/glpi.sql
+ENV MYSQL_ROOT_PASSWORD test123
